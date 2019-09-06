@@ -6,7 +6,8 @@ const input1 = document.getElementById('input1');
 btn1.onclick = function(){
     const inputValue = input1.value;
     
-    const url = 'http://localhost:8080/movie2/api/movies/' + inputValue;    
+    //const url = 'http://localhost:8080/movie2/api/movies/' + inputValue;    
+    const url = 'https://drop.ulrik.me/week36-movie2/api/movies/' + inputValue;   
     //const p = persons.map(function(el){return '<li>' + el + '</li>'});
     //const p = persons.map(el=>'<li>'+ el + '</li>');
     //console.log('Jeg blev klikket');
